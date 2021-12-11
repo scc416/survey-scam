@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey scam - Build a Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="confetti">
+  <img style="width: 100vw;" src="https://cdn.shopify.com/s/files/1/0107/4751/0884/products/Confetti3_530x@2x.gif?v=1574208137">
+    
+  </div>
+
+<nav>
+  <img class="logo" src="https://www.google.com/chrome/static/images/chrome-logo.svg">
+  <div>
+    <div class="subtitle">
+      2021 Annual Visitor Survey
+    </div>
+    <div class="title">
+      Browser Opinion survey
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+    <h1 id="title">Congratulations!</h1>
+    <p id="description">You've been personally selected to take part in our 2021 Annual Visitor Survey! Tell us what you think of chrome and to say <strong>"Thank You"</strong> you'll receive a chance to get a <strong>$1000 Amazon Gift card!</strong></p>
+
+    <form id="survey-form">
+
+      <label for="name" id="name-label"><legend>Name</legend>
+        <input id="name" type="text" required placeholder="Enter your name">
+
+      </label>
+      
+
+      <label for="email" id="email-label">
+        <legend>Email Address</legend>
+        <input id="email" type="email" required placeholder="Enter your email address">
+      </label>
+
+      
+      <label for="number" id="number-label"><legend>Telephone</legend>
+        <input id="number" type="number" placeholder="Enter your telephone number" max="99999999" min="20000000">
+      </label>
+
+      <legend>Which device do you use at the moment?</legend>
+      <label for="dropdown" id="dropdown-label">
+        <select name="devices" id="dropdown">
+          <option value="pc/notebook">PC/Notebook</option>
+          <option value="smartphone">Smartphone</option>
+          <option value="tablet">Tablet</option>
+          <option value="other">Other</option>
+        </select>
+
+      </label>
+      <legend>How often do you use Chrome?</legend>
+      <fieldset>
+        <label>
+          <input type="radio" name="radio" value="all-the-time"> All the time
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="radio" value="sometimes"> Sometimes
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="radio" value="never">Never
+        </label>
+      </fieldset>
+
+      <legend>Which prize(s) would you like to get?</legend>
+      <fieldset>
+        <label>
+          <input type="checkbox" name="checkbox" value="amazon"> $1000 Amazon Gift card
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="checkbox" value="iphone"> iPhone 13
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="checkbox" value="macbook"> Macbook Pro
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="checkbox" value="airlinetickets"> Airline Tickets
+        </label>
+      </fieldset>
+      <legend>
+        Other Commment(s)
+      </legend>
+      <label>
+        <textarea style="width: 100%"></textarea>
+      </label>
+      <br>
+      <div style="display: flex; justify-content: center;">
+        <button id="submit" type="submit">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+
+</main>
+
+<footer>
+  Inspired by survey scam.
+</footer>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
