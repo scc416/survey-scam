@@ -15,6 +15,11 @@
   pointer-events: none;
 }
 
+.confetti img {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
 nav {
   background-color: rgb(46 69 137);
   display: flex;
@@ -78,7 +83,7 @@ legend {
 }
 
 .container {
-  padding: 0 10px;
+  padding: 10px 20px 0 20px;
 }
 
 button {
