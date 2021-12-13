@@ -31,7 +31,7 @@ nav {
 
 nav div.nav {
   display: flex;
-  color: #FFFFFF;
+  color: #ffffff;
   width: auto;
   justify-content: center;
   align-items: center;
@@ -110,8 +110,11 @@ legend {
   padding: 10px 20px 40px 20px;
 }
 
-button.pure-button.pure-button-primary {
-  background-color: #74B566;
+button.pure-button {
+  margin-top: 0.5em;
+  background-color: #74b566;
+  font-size: 125%;
+  color: #FFFFFF;
 }
 
 @media (min-width: 768px) {

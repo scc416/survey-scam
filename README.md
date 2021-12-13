@@ -26,6 +26,7 @@ https://scc416.github.io/survey-scam/
 | _View of the webpage on mobile_ |
 
 ## Dependencies
+
 - [jQuery](https://jquery.com/): when the submit button is clicked, use jQuery to prevent default and reset the form
 - [Pure](https://purecss.io/): style of the form
 
