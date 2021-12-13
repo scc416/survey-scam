@@ -47,6 +47,9 @@ body main {
   flex-direction: column;
   align-items: center;
   width: 100vw;
+}
+
+body {
   position: relative;
   min-height: 100vh;
 }
@@ -97,6 +100,6 @@ button.pure-button.pure-button-primary {
 
 @media (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
