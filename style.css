@@ -57,6 +57,10 @@ footer {
   color: white;
 }
 
+textarea {
+  width: 100%
+}
+
 h1 {
   color: #324684;
   font-weight: 800;

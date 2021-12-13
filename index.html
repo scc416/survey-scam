@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <title>Survey scam</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/pure-min.css" integrity="sha512-/VectwrK3cVMbl6IFsHj/O+fbxfLQm5rved2LR8HnaNuIL6fs8yBXNSi25hhQCB2713sc3Cbh5a4wLRSsZvDxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/pure-min.css"
+      integrity="sha512-/VectwrK3cVMbl6IFsHj/O+fbxfLQm5rved2LR8HnaNuIL6fs8yBXNSi25hhQCB2713sc3Cbh5a4wLRSsZvDxg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="confetti">
@@ -31,80 +37,62 @@
           <strong>$1000 Amazon Gift card!</strong>
         </p>
 
-        <form>
-          <label for="name"
-            ><legend>Name</legend>
-            <input type="text" required placeholder="Enter your name" />
-          </label>
+        <form class="pure-form pure-form-stacked">
+          <label for="name">Name</label>
+          <input type="text" required placeholder="Name" />
 
-          <label for="email">
-            <legend>Email Address</legend>
-            <input
-              type="email"
-              required
-              placeholder="Enter your email address"
-            />
-          </label>
+          <label for="email">Email Address </label>
+          <input type="email" required placeholder="Email address" />
 
-          <label for="number"
-            ><legend>Telephone</legend>
-            <input
-              type="number"
-              placeholder="Enter your telephone number"
-              max="99999999"
-              min="20000000"
-            />
-          </label>
+          <label for="number">Telephone</label>
+          <input
+            type="number"
+            placeholder="Telephone"
+            max="99999999"
+            min="20000000"
+          />
 
-          <legend>Which device do you use at the moment?</legend>
-          <label for="dropdown">
-            <select name="devices">
-              <option value="pc/notebook">PC/Notebook</option>
-              <option value="smartphone">Smartphone</option>
-              <option value="tablet">Tablet</option>
-              <option value="other">Other</option>
-            </select>
+          <label for="dropdown">Which device do you use at the moment? </label>
+          <select name="devices">
+            <option value="pc/notebook">PC/Notebook</option>
+            <option value="smartphone">Smartphone</option>
+            <option value="tablet">Tablet</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label>How often do you use Chrome?</label>
+
+          <label>
+            <input type="radio" name="radio" value="all-the-time" /> All the
+            time
           </label>
-          <legend>How often do you use Chrome?</legend>
-          <fieldset>
-            <label>
-              <input type="radio" name="radio" value="all-the-time" /> All the
-              time
-            </label>
-            <br />
-            <label>
-              <input type="radio" name="radio" value="sometimes" /> Sometimes
-            </label>
-            <br />
-            <label>
-              <input type="radio" name="radio" value="never" />Never
-            </label>
-          </fieldset>
+          <label>
+            <input type="radio" name="radio" value="sometimes" /> Sometimes
+          </label>
+          <label>
+            <input type="radio" name="radio" value="never" /> Never
+          </label>
 
           <legend>Which prize(s) would you like to get?</legend>
-          <fieldset>
-            <label>
-              <input type="checkbox" name="checkbox" value="amazon" /> $1000
-              Amazon Gift card
-            </label>
-            <br />
-            <label>
-              <input type="checkbox" name="checkbox" value="iphone" /> iPhone 13
-            </label>
-            <br />
-            <label>
-              <input type="checkbox" name="checkbox" value="macbook" /> Macbook
-              Pro
-            </label>
-            <br />
-            <label>
-              <input type="checkbox" name="checkbox" value="airlinetickets" />
-              Airline Tickets
-            </label>
-          </fieldset>
+
+          <label>
+            <input type="checkbox" name="checkbox" value="amazon"/> $1000
+            Amazon Gift card
+          </label>
+          <label>
+            <input type="checkbox" name="checkbox" value="iphone" /> iPhone 13
+          </label>
+          <label>
+            <input type="checkbox" name="checkbox" value="macbook" /> Macbook
+            Pro
+          </label>
+          <label>
+            <input type="checkbox" name="checkbox" value="airlinetickets" />
+            Airline Tickets
+          </label>
           <legend>Other Commment(s)</legend>
           <label>
-            <textarea style="width: 100%"></textarea>
+            <textarea></textarea>
           </label>
           <br />
           <div style="display: flex; justify-content: center">
