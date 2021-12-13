@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Open Sans';
+  box-sizing: border-box;
 }
 
 .confetti {
@@ -46,15 +47,18 @@ body main {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  background-size: 1000px auto;
-  margin-bottom: 30px;
+  position: relative;
+  min-height: 100vh;
 }
 
 footer {
   text-align: center;
   width: 100vw;
+  position: absolute;
+  bottom: 0;
+  padding: 0.2em;
   background-color: #324684;
-  color: white;
+  color: #FFFFFF;
 }
 
 textarea {
@@ -84,7 +88,7 @@ legend {
 }
 
 .container {
-  padding: 10px 20px 0 20px;
+  padding: 10px 20px 40px 20px;
 }
 
 button.pure-button.pure-button-primary {
