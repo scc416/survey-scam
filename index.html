@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CodePen - Survey scam - Build a Survey Form</title>
+    <title>Survey scam</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- partial:index.partial.html -->
     <div class="confetti">
       <img
         style="width: 100vw"
@@ -27,39 +26,32 @@
 
     <main>
       <div class="container">
-        <h1 id="title">Congratulations!</h1>
-        <p id="description">
+        <h1 class="survey-title">Congratulations!</h1>
+        <p>
           You've been personally selected to take part in our 2021 Annual
           Visitor Survey! Tell us what you think of chrome and to say
           <strong>"Thank You"</strong> you'll receive a chance to get a
           <strong>$1000 Amazon Gift card!</strong>
         </p>
 
-        <form id="survey-form">
-          <label for="name" id="name-label"
+        <form>
+          <label for="name"
             ><legend>Name</legend>
-            <input
-              id="name"
-              type="text"
-              required
-              placeholder="Enter your name"
-            />
+            <input type="text" required placeholder="Enter your name" />
           </label>
 
-          <label for="email" id="email-label">
+          <label for="email">
             <legend>Email Address</legend>
             <input
-              id="email"
               type="email"
               required
               placeholder="Enter your email address"
             />
           </label>
 
-          <label for="number" id="number-label"
+          <label for="number"
             ><legend>Telephone</legend>
             <input
-              id="number"
               type="number"
               placeholder="Enter your telephone number"
               max="99999999"
@@ -68,8 +60,8 @@
           </label>
 
           <legend>Which device do you use at the moment?</legend>
-          <label for="dropdown" id="dropdown-label">
-            <select name="devices" id="dropdown">
+          <label for="dropdown">
+            <select name="devices">
               <option value="pc/notebook">PC/Notebook</option>
               <option value="smartphone">Smartphone</option>
               <option value="tablet">Tablet</option>
@@ -119,7 +111,7 @@
           </label>
           <br />
           <div style="display: flex; justify-content: center">
-            <button id="submit" type="submit">Submit</button>
+            <button type="submit">Submit</button>
           </div>
         </form>
       </div>

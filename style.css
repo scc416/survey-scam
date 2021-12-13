@@ -57,7 +57,7 @@ footer {
   width: max(40%, 480px);
 }
 
-#title {
+.survey-title {
   color: rgb(46 69 137);
   font-weight: 800;
 }
