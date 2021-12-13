@@ -1,6 +1,7 @@
 # Survey Scam
 
-This webpage is one of my project for [Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/) on [freeCodeCamp](https://www.freecodecamp.org/): [Build a Survey Form](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form).  
+A web page that displays a form. The design is inspired by online survey scam.
+This web page is one of my project for [Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/) on [freeCodeCamp](https://www.freecodecamp.org/): [Build a Survey Form](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form).  
 The design is inspired by online survey scams.
 
 ## Table of Content
@@ -19,11 +20,11 @@ https://scc416.github.io/survey-scam/
 
 |  ![desktop](./docs/desktop.png)  |
 | :------------------------------: |
-| _View of the webpage on desktop_ |
+| _View of the web page on desktop_ |
 
 |  ![mobile](./docs/mobile.png)   |
 | :-----------------------------: |
-| _View of the webpage on mobile_ |
+| _View of the web page on mobile_ |
 
 ## Dependencies
 
