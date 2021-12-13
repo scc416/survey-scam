@@ -17,7 +17,7 @@ https://scc416.github.io/survey-scam/
 
 ## Final Product
 
-|  ![content](./docs/content.png)  |
+|  ![desktop](./docs/desktop.png)  |
 | :------------------------------: |
 | _View of the webpage on desktop_ |
 
