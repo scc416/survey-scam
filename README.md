@@ -18,13 +18,13 @@ https://scc416.github.io/survey-scam/
 
 ## Final Product
 
-|  ![desktop](./docs/desktop.gif)  |
-| :------------------------------: |
-| _View of the web page on desktop_ |
+| ![desktop](./docs/desktop.gif) |
+| :----------------------------: |
+|   _The web page on desktop_    |
 
-|  ![mobile](./docs/mobile.gif)   |
-| :-----------------------------: |
-| _View of the web page on mobile_ |
+| ![mobile](./docs/mobile.gif) |
+| :--------------------------: |
+|   _The web page on mobile_   |
 
 ## Dependencies
 
