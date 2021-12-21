@@ -10,6 +10,7 @@ The design is inspired by online survey scams.
 - [Final Product](#final-product)
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
+- [Credit](#credit)
 
 ## Live demo
 
@@ -35,3 +36,6 @@ https://scc416.github.io/survey-scam/
 
 1. Clone or download this repository onto your local device.
 2. Open `index.html` with browser.
+
+## Credit
+- Favicon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/).
